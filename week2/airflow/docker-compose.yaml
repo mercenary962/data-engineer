@@ -66,8 +66,8 @@ x-airflow-common:
     AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/.google/credentials/google_credentials.json'
 
     # TODO: Please change GCP_PROJECT_ID & GCP_GCS_BUCKET, as per your config
-    GCP_PROJECT_ID: 'ny-taxi-371814'
-    GCP_GCS_BUCKET: 'demo_data_lake_ny-taxi-371814'
+    GCP_PROJECT_ID: 'taxi-data-372515' #daotheanh09062 project id
+    GCP_GCS_BUCKET: 'demo_data_lake_taxi-data-372515'
 
   volumes:
     - ./dags:/opt/airflow/dags
